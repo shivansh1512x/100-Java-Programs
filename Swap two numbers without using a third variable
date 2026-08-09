@@ -1,0 +1,20 @@
+public class p7 {
+    public static void main(String[] args) {
+
+        System.out.println("Before swapping");
+        int a = 2;
+        int b = 4;
+
+        System.out.println(a);
+        System.out.println(b);
+
+        System.out.println("After swapping");
+
+      a = a + b;  // a = 6
+      b = a - b;  // b = 2
+      a = a - b;  // a = 4
+
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
