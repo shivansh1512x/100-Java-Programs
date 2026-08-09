@@ -1,0 +1,17 @@
+import java.util.*;
+public class p10 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter time in seconds ");
+
+        int totalseconds = sc.nextInt();
+
+        int hours = totalseconds / 3600;
+        int minutes = (totalseconds % 3600) / 60;
+        int seconds = totalseconds % 60;
+
+        System.out.println(totalseconds + " " + "second is equivalent to:" + " ");
+        System.out.println(hours + " " + "hours, " + minutes + " " + "minutes, and" + " " + seconds + " " + "seconds ");
+    }
+}
