@@ -1,0 +1,21 @@
+import java.util.*;
+public class p18 {
+    public static void main(String[] args) {
+        Scanner sc =  new Scanner(System.in);
+
+        System.out.println("Enter marks:" + " ");
+        int marks = sc.nextInt();
+
+        if(marks >= 18 && marks <= 20){
+            System.out.println("Grade is A");
+        }else if(marks >= 16){
+            System.out.println("Grade is B");
+        }else if(marks >= 11){
+            System.out.println("Grade is C");
+        }else if(marks >= 3){
+            System.out.println("Grade is D");
+        }else{
+            System.out.println("Fail");
+        }
+     }
+}
