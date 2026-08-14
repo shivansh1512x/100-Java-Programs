@@ -1,0 +1,19 @@
+import java.util.*;
+public class p31 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the value of n:" );
+        int n = sc.nextInt();
+
+        System.out.println("Enter the limit of this table:" );
+        int limit = sc.nextInt();
+
+        System.out.println("The multiplication table of" + " " + n + " " + "up to" + limit + " " + ":");
+
+        for(int i = 1; i <= limit; i++){
+            System.out.println(n + " " + "x" + " " + i + " " + "=" + " " + (n * i));
+        }
+
+    }
+}
