@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class p43 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int n = sc.nextInt();
+
+        int lastdigit = n % 10;
+        int firstdigit = n;
+
+        while(firstdigit >= 10){
+            firstdigit = firstdigit / 10;
+        }
+        int sum = firstdigit + lastdigit;
+
+        System.out.println("First Digit:" + " " + firstdigit);
+        System.out.println("Last Digit:" + " " + lastdigit);
+        System.out.println("Sum of first digit and last digit:" + " " + sum);
+    }
+}
